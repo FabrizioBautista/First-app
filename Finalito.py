@@ -17,6 +17,7 @@ nuestra_correlacion = st.sidebar.button('Nuestra Correlacion')
 mapa_de_calor = st.sidebar.button('Mapa de Calor')
 validacion_de_resultados = st.sidebar.button('Validacion de Resultados')
 conclusiones = st.sidebar.button('Conclusiones')
+st.sidebar.image('https://upload.wikimedia.org/wikipedia/commons/3/3a/LOGO_UNSA.png')
 st.snow()
 st.balloons()
 if inicio:
@@ -48,6 +49,8 @@ if inicio:
     st.markdown("<h2 style='text-align: center; color: black;'>INVESTIGACIÓN FORMATIVA</h2>", unsafe_allow_html=True)
   
     st.markdown("<h2 style='text-align: center; color: black;'>PYTHON - Inteligencia Artificial</h2>", unsafe_allow_html=True)
+    
+    st.image('https://s1.eestatic.com/2020/08/19/invertia/empresas/energia/transicion_energetica-inteligencia_artificial-energias_renovables_514209961_158012153_1706x960.jpg')
     
     st.image('https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png')
     
