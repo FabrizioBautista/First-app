@@ -433,9 +433,9 @@ if mapa_de_calor:
                                                  columns=lista1, 
                                                  index=lista1)   
     st.markdown("<h2 style='text-align: center; color: black;'>Mapa de Calor</h2>", unsafe_allow_html=True)
-    st.markdown('En esta seccion se mostraran los mapas de calor obtenidos mediante la libreria seaborn y el obtenido desde nuestro algoritmo. Comparando ambas para poder confirmar su similitud.')
+    st.markdown('En esta seccion se mostraran los mapas de calor obtenidos mediante la libreria pandas y el obtenido desde nuestro algoritmo. Comparando ambas para poder confirmar su similitud.')
     st.image('https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png')
-    st.markdown("<h2 style='text-align:; color: black;'>Mapa de Calor de Seaborn</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align:; color: black;'>Mapa de Calor de Pandas</h2>", unsafe_allow_html=True)
     st.image('https://scontent.faqp2-3.fna.fbcdn.net/v/t39.30808-6/320568454_821952312437453_6275346164755308970_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHSHS3jnyf3Mjzbox56D96_7xz6F8BIZ6nvHPoXwEhnqd3dfIxG5PHyw7pkK4KTSEtKqPkC1bKrWiT6mmRfX4Hx&_nc_ohc=-nHPUXn5WA4AX8oiYSw&_nc_ht=scontent.faqp2-3.fna&oh=00_AfCXoxyC5ZZTnmNz80jKbb1lfQJF-tdqQsMDfBUy7HLuuQ&oe=63A59FA7')
     st.markdown("<h2 style='text-align:; color: black;'>Mapa de Calor de Nuestro Algoritmo </h2>", unsafe_allow_html=True)
     st.image('https://scontent.faqp2-3.fna.fbcdn.net/v/t39.30808-6/320568454_821952312437453_6275346164755308970_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHSHS3jnyf3Mjzbox56D96_7xz6F8BIZ6nvHPoXwEhnqd3dfIxG5PHyw7pkK4KTSEtKqPkC1bKrWiT6mmRfX4Hx&_nc_ohc=-nHPUXn5WA4AX8oiYSw&_nc_ht=scontent.faqp2-3.fna&oh=00_AfCXoxyC5ZZTnmNz80jKbb1lfQJF-tdqQsMDfBUy7HLuuQ&oe=63A59FA7')
